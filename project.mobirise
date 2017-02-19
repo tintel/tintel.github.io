@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 1,
+    "uniqCompNum": 2,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -40,56 +40,43 @@
       },
       "components": [
         {
+          "_inherit": "header1",
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-0",
+          "_name": "header4",
+          "_anchor": "header4-1",
           "_params": {
-            "imageSize": 50,
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#fac51c",
-            "bgColorRadio": true,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/osK1GYhHkGE?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
+            "overlayOpacity": "0.4",
+            "overlayColor": "#ffffff",
+            "contentAlign": "right",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/foto-op-17-02-17-om-15-1400x933.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
+          "title": "tintel tintel tintel tintel&nbsp;",
+          "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://everyonesaishi.tumblr.com/\" data-toolbar=\"-mbrBtnMove\">inspirations </a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">own work</a>",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "9px"
             }
-          },
-          "title": "LISA &amp; TINTEL",
-          "text": "LISA TINTEL&nbsp;LISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTELLISA TINTEL                   ",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          }
         }
       ]
     }
